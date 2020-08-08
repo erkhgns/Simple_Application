@@ -25,6 +25,7 @@
             android:fontFamily="monospace"
             android:text="@string/user_details"
             android:textAlignment="center"
+            android:layout_margin="8dp"
             android:textColor="@color/colorPrimaryDark" />
 
         <com.google.android.material.card.MaterialCardView
