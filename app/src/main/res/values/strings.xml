@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Simple Application</string>
+    <string name="show_country_picker">Show Country Picker</string>
+    <string name="user_details">User Details</string>
+</resources>
