@@ -24,9 +24,9 @@ class LogInViewModel(application: Application) : BaseViewModel(application) {
 
     init {
         countryName.value = Country.getDefault(application)!!.getName(application)
-        userName.value ="admin"
-        password.value ="admin"
-
+        viewModelScope.launch {
+            userRepository.selectSingleUser("","")
+        }
     }
 
     fun onLogIn() {
